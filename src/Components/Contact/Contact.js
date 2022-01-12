@@ -53,6 +53,10 @@ const ContactPage = styled.div`
 
 const MapSection = styled.div`
 	padding-bottom: 2rem;
+
+	@media screen and (max-width: 480px) {
+		display: none;
+	}
 `;
 
 const FormSection = styled.form`
