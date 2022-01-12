@@ -49,6 +49,10 @@ const Card = styled.div`
 		color: #666;
 		font-size: 14px;
 	}
+
+	@media screen and (max-width: 786px) {
+		width: 300px;
+	}
 `;
 
 export default ProductsCard;

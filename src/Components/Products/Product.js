@@ -69,7 +69,7 @@ const GridWrapper = styled.div`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;

@@ -25,7 +25,6 @@ const ProductList = ({ getProducts, data }) => {
 							flexWrap: "wrap",
 							justifyContent: "center",
 							gap: "2.5rem",
-							padding: "1rem",
 						}}
 					>
 						{data &&

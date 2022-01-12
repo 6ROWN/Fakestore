@@ -1,5 +1,12 @@
 import React from "react";
-import { Nav, Logo, NavList, ListItem, StyledLink } from "./Narbar.Styles";
+import {
+	Nav,
+	Logo,
+	NavList,
+	ListItem,
+	StyledLink,
+	Cart,
+} from "./Narbar.Styles";
 import { Container } from "../Context/GlobalStyles";
 import logo from "../../Images/TMC-logo.png";
 import { BsCart3 } from "react-icons/bs";
@@ -23,11 +30,9 @@ const Navbar = () => {
 							<StyledLink to="/contact">Contact</StyledLink>
 						</ListItem>
 					</NavList>
-					<StyledLink to="/">
-						<BsCart3
-							style={{ fontSize: "25px", margin: "0 1rem" }}
-						></BsCart3>
-					</StyledLink>
+					<Cart to="/">
+						<BsCart3></BsCart3>
+					</Cart>
 				</Nav>
 			</Container>
 		</>
